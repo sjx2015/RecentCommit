@@ -1,2 +1,56 @@
-test
 
+================================================
+<Revision 3>
+
+问题描述：
+
+修改方法：
+
+branch:
+commitId:
+
+记录时间：
+
+注意事项：
+
+================================================
+<Revision 2>专用
+
+问题描述：去掉系统中所有WiFi和蓝牙相关配置
+
+修改方法：
+/media/sdc/gwx/x3/packages/apps/TvSettings
+branch: Net-R
+commitId: 9538d9
+
+/media/sdc/gwx/x3/packages/apps/Settings
+branch: Net-R
+commitId: 94d2ae,484bbb,f551fa
+
+/media/sdc/gwx/x3/frameworks/base
+branch: Net-R
+commitId: 5d30b5,7bade8
+
+记录时间：
+2019年12月23日10:06
+
+注意事项：
+此修改不是通用的修改，有需要的情况下才需整合
+================================================
+
+<Revision 1>通用
+
+问题描述：
+将Powerkey definition设置为shutdown, 连上蓝牙，刚开机一会儿后即按下遥控器power键，系统会自动重启。
+
+修改方法：
+/media/sdc/gwx/x3/bootloader/uboot-repo/bl33
+branch: s905x3_0720
+commitId: 857cee
+
+记录时间：
+2019年12月23日09:48:04
+
+注意事项：
+要与commitId 070f76一起使用
+================================================
