@@ -1,17 +1,18 @@
 
 ================================================
-<Revision 3>
+<Revision 3>通用
 
-问题描述：
+问题描述：插上sd卡或u盘，然后开机，主页UI的右下角usb图标不显示
 
 修改方法：
-
-branch:
-commitId:
+/media/sdc/member2/s922x/packages/apps/LightHome1
+branch:test_old_gu_wherther
+commitId:d34d47
 
 记录时间：
+2019年12月23日11:23
 
-注意事项：
+注意事项：无
 
 ================================================
 <Revision 2>专用
