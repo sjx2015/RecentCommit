@@ -1,5 +1,19 @@
 
 ================================================
+<Revision 7>通用
+
+问题描述: 系统起来后，长按遥控器主页键，需要等待1分钟左右才能弹出AppMarket
+
+修改方法：
+/media/sdc/gwx/x3/packages/apps/LightHome1
+branch: test_old_gu_wherther
+commitId:479b96
+
+记录时间：
+2019年12月27日14:37
+
+注意事项：0x7f80遥控器的apps快捷键跟长按home键一样，开机后需要很久才能弹出AppMarket
+================================================
 <Revision 6>通用
 
 问题描述: 修正"恢复出厂会误删 preinstall_netxeon_del目录下除了自动重启apk以外的其他apk"的问题
